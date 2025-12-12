@@ -1,0 +1,136 @@
+header {
+    background-color: green;
+    padding: 10px;
+    margin: -10px;
+    color: white;
+    background-image: linear-gradient(to bottom,#2EF559,#28332A);
+}
+header > p {
+    width: 410px;
+    margin: auto;
+    padding-bottom: 20px;
+    text-align: center;
+}
+nav > a {
+    text-decoration: none;
+    color: rgb(161, 216, 161);
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: left;
+}
+nav > a:hover {
+    background-color: #2EF559;
+    color: black;
+    border-radius: 5px;
+}
+header > h1 {
+    text-align: center;
+    padding-top: 7px;
+    padding-bottom: 5px;
+}
+body {
+    background-color: #7ce092;
+}
+main {
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+    box-shadow:  2px 1px 14px 1px rgb(0, 0, 0, 0.5);
+}
+article > h1 {
+    color: green;
+}
+span {
+    color: green;
+}
+article > h2 {
+    color: green;
+    background-image: linear-gradient(to right, #93fdaa,white);
+}
+p > a {
+    text-decoration: none;
+    color: green;
+    background-color: #95ffac;
+}
+p > a:hover {
+    text-decoration: underline;
+}
+#main2 {
+    background-color: #15411c;
+    margin-top: 0px;
+}
+#vídeo {
+    width: 1500px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 10px 30px;
+}
+.imagens {
+    width: 1680px;
+    height: 350px;
+}
+.imagem_centralizada {
+    height: 350px;
+}
+#main3> section > h3 {
+    text-align: left;
+    background-color: green;
+    color: white;
+    padding: 7px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+#main3 > section {
+    background-color: #bbf0c7;
+    text-align: left;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 1px rgba(196, 194, 194, 0.397);
+}
+#main3 {
+    margin-top: 0px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+#main3 > section > p {
+    padding-left: 10px;
+}
+footer {
+    text-align: center;
+    background-color: #0d4416;
+    color: rgb(161, 216, 161);
+    margin-top: 20px;
+    margin: 20px -10px -10px -10px;
+}
+footer > span {
+    color: white;
+}
+.container-listas {
+    display: flex; 
+    justify-content: space-around; 
+    gap: 20px; 
+    padding: 1px;
+    padding-left: 10px;
+}
+ul {
+    list-style-type: inherit;
+    margin: 0;
+    padding: 10px;
+    width: 45%;
+}
+li > a {
+    color: black;
+}
+p {
+    text-indent: 30px;
+    text-align: justify;
+}
+#main3  > p {
+    text-align: center;
+}
